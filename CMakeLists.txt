@@ -7,7 +7,7 @@ project(lab4 VERSION ${PROJECT_VESRION})
 
 configure_file(version.h.in version.h)
 
-add_executable(lab4_project lab4.cpp allocator.h)
+add_executable(lab4_project lab4.cpp allocator.h SeqCont.cpp SeqCont.h factorial.h)
 add_library(lab4 lib.cpp)
 
 set_target_properties(lab4_project lab4  PROPERTIES
